@@ -142,7 +142,7 @@
 }
 
 .banner .formlogin h2 {
-    color:rgb(187, 32, 52) ;
+    color:rgb(224, 54, 77);
 }
 
 .banner .formlogin div{
@@ -153,7 +153,7 @@
 }
 
 .banner .formlogin div{
-    color:rgb(187, 32, 52);
+    color:rgb(224, 54, 77);
 
 }
 
@@ -170,4 +170,52 @@
     border: none;
     padding: 10px 20px;
     border-radius: 15px;
+}
+
+ 
+.banner .formcadastro{
+    background-color: rgba(22, 13, 2, 0.753);
+    height: 470px;
+    width: 25vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 20px;
+}
+
+.banner .formcadastro h2 {
+    color:rgb(224, 54, 77);
+    display: flex;
+    justify-content: center;
+    
+}
+
+.banner .formcadastro div{
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.banner .formcadastro div{
+    color:rgb(224, 54, 77);
+
+}
+
+.banner .formcadastro div input{
+    border: 2px solid rgb(187, 32, 52);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.banner .formcadastro button{
+    background-color:rgb(187, 32, 52) ;
+    border:black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
 }

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <h1>TermoVinho</h1>
+            <ul class="navbar">
+                <li> <a href="index.html">Inicio</a> </li>
+                <li> <a href="simulacao.html">Simulador</a></li>
+                <li>|</li>
+                <li><a href=login.html>Login</a></li>
+                <li><a href=cadastro.html>Cadastro</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="banner">
+        <div class="formcadastro">
+            <h2>Criar Conta</h2>
+            <div>
+                Nome:<input id=nome type="text" placeholder="inserir seu nome completo">
+            </div>
+            <div>
+                Data Nascimento:<input id=datansc type="date">
+            </div>
+            <div>
+                CPF/CNPJ:<input id=cpf type="text" placeholder="Ex 351.XXX.XXX-60">
+            </div>
+            <div>
+                Tel/Cel:<input id=telfixo type="tel" placeholder="Ex (11) 4444-4444">
+            </div>
+            <div>
+                E-mail:<input id=email type="email" placeholder="inserir um e-mail ativo">
+            </div>
+            <div>
+                Senha:<input id=criarsenha type="password" placeholder="senha deve conter mais de 8 digitos">
+            </div>
+            <br>
+            <button onclick="criar()">Criar</button>
+            <br>
+        </div>
+    </div>
+</body>
+
+</body>
+
+</html>
